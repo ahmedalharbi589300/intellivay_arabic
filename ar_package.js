@@ -1,5 +1,4 @@
-  const  translation_En_Ar = {
-" Switch to Agency View ":"التبديل إلى عرض الوكالة", 
+const  translation_En_Ar = {" Switch to Agency View ":"التبديل إلى عرض الوكالة", 
 "Search":"يبحث", 
 " Quick Actions ":"إجراءات سريعة", 
 "Add a Contact":"أضف جهة اتصال", 
