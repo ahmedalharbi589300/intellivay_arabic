@@ -1422,3 +1422,85 @@ const  translation_En_Ar = {" Switch to Agency View ":"التبديل إلى ع�
             }
         }
     }
+
+setTimeout(testload3, 50);
+if ( localStorage.getItem("languageSetSS") == 'English' || localStorage.getItem("languageSetSS") == 'عربي' ) {
+  sessionStorage.setItem("languageSetSS" , localStorage.getItem("languageSetSS")) ;
+}else{
+sessionStorage.setItem("languageSetSS", 'English') ;
+}
+
+if ( sessionStorage.getItem("languageSetSS") == 'English' || sessionStorage.getItem("languageSetSS") == 'عربي' ) {
+// r
+} else {
+  sessionStorage.setItem("languageSetSS", 'English') ;
+}
+function testload3(t=0) {
+const collection = document.getElementsByClassName("hl-loader-container");
+for (let i = 0; i < collection.length; i++) {
+  if ( collection[i].style.display == 'none' ) {
+  t=1 ;
+  var newItem = document.createElement("div");
+newItem.innerHTML = `<div class="dbox-lan" id="dbox-lan">
+  <button onclick="language_bx4()" class="dropbtn0lan">`+sessionStorage.getItem("languageSetSS")+`</button>
+  <div id="language_bx4" class="d-box-co">
+    <a style="color:gray" onclick="languageSet('English')">English</a>
+    <a style="color:gray" onclick="languageSet('عربي')">عربي</a>
+  </div>
+</div>`
+
+var list = document.getElementsByClassName("container-fluid")[0];
+
+list.insertBefore(newItem, list.childNodes[0]);
+if ( sessionStorage.getItem("languageSetSS") == 'عربي' ) {
+tSr_En_Ar();
+}
+
+  }
+}
+if ( t==0) {
+setTimeout(testload3, 150);
+}  else {
+  if ( sessionStorage.getItem("languageSetSS") == 'عربي' ) {
+  tSr_En_Ar();
+  }
+setTimeout(testload44, 50);
+}
+
+}
+
+
+function testload44() {
+  if ( sessionStorage.getItem("languageSetSS") == 'عربي' ) {
+  tSr_En_Ar();
+  }
+setTimeout(testload44, 100);
+}
+
+function language_bx4() {
+  document.getElementById("language_bx4").classList.toggle("showDrp");
+}
+window.onclick = function(event) {
+  if ( sessionStorage.getItem("languageSetSS") == 'عربي' ) {
+    setTimeout(tSr_En_Ar, 50);
+    setTimeout(tSr_En_Ar, 200);
+    setTimeout(tSr_En_Ar, 500);
+  }
+
+
+  if (!event.target.matches('.dropbtn0lan')) {
+    var dropdowns = document.getElementsByClassName("d-box-co");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('showDrp')) {
+        openDropdown.classList.remove('showDrp');
+      }
+    }
+  }
+}
+function languageSet(i) {
+sessionStorage.setItem("languageSetSS" , i);
+localStorage.setItem("languageSetSS", i);
+location.reload();
+}
