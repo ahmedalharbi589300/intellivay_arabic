@@ -2151,7 +2151,7 @@ const  translation_En_Ar = {" Switch to Agency View ":"التبديل إلى ع�
 " Dismiss ":"رفض", 
 " Only Agency Admins can see this warning. For more info ":"يمكن لمشرفي الوكالة فقط رؤية هذا التحذير.لمزيد من المعلومات", 
 "contact support":"الاتصال الدعم", 
-"Upgrade ":"يرقي", 
+"Upgrade ":"ترقية", 
 "Get access to Add your own Templates to Template Library with $497 plan and higher":"احصل على إمكانية الوصول لإضافة القوالب الخاصة بك إلى مكتبة القالب بخطة 497 دولار وأعلى", 
 "Not Now":"ليس الآن", 
 "Upgrade Now":"الترقية الآن", 
