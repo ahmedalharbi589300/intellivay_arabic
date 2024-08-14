@@ -1488,9 +1488,10 @@ function language_bx4() {
 }
 window.onclick = function(event) {
   if ( sessionStorage.getItem("languageSetSS") == 'عربي' ) {
+    setTimeout(tSr_En_Ar, 10);
     setTimeout(tSr_En_Ar, 50);
-    setTimeout(tSr_En_Ar, 200);
-    setTimeout(tSr_En_Ar, 500);
+    setTimeout(tSr_En_Ar, 100);
+    setTimeout(tSr_En_Ar, 150);
   }
 
 
