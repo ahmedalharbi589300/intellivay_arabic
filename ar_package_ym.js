@@ -836,7 +836,7 @@ const  translation_En_Ar = {" Switch to Agency View ":"التبديل إلى ع�
 "Week":"أسبوع", 
 "Month":"شهر", 
 "New":"جديد", 
-"10 Sat":"10 جلس", 
+"10 Sat":"10 السبت", 
 "11 Sun":"11 الأحد", 
 "12 Mon":"12 الأثنين", 
 "13 Tue":"13 الثلاثاء", 
