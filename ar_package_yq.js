@@ -1423,7 +1423,7 @@ const  translation_En_Ar = {" Switch to Agency View ":"التبديل إلى ع�
         }
     }
 
-setTimeout(testload3, 50);
+testload3();
 if ( localStorage.getItem("languageSetSS") == 'English' || localStorage.getItem("languageSetSS") == 'عربي' ) {
   sessionStorage.setItem("languageSetSS" , localStorage.getItem("languageSetSS")) ;
 }else{
@@ -1465,7 +1465,7 @@ tSr_En_Ar();
 }
 }
 if ( t==0) {
-setTimeout(testload3, 150);
+setTimeout(testload3, 50);
 }  else {
   if ( sessionStorage.getItem("languageSetSS") == 'عربي' ) {
   tSr_En_Ar();
