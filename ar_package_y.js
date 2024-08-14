@@ -1456,7 +1456,13 @@ if ( sessionStorage.getItem("languageSetSS") == 'عربي' ) {
 tSr_En_Ar();
 }
 
+}else{
+  if ( sessionStorage.getItem("languageSetSS") == 'عربي' ) {
+  tSr_En_Ar();
   }
+
+  
+}
 }
 if ( t==0) {
 setTimeout(testload3, 150);
@@ -1484,7 +1490,6 @@ window.onclick = function(event) {
   if ( sessionStorage.getItem("languageSetSS") == 'عربي' ) {
     setTimeout(tSr_En_Ar, 50);
     setTimeout(tSr_En_Ar, 200);
-    console.log('click....')
     setTimeout(tSr_En_Ar, 500);
   }
 
