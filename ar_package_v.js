@@ -1400,3 +1400,25 @@ const  translation_En_Ar = {" Switch to Agency View ":"التبديل إلى ع�
 "Created":"مخلوق", 
 "Deleted":"حذف"
   }
+
+  function smdtr_en_to_ar(i='') {
+    if(translation_En_Ar[i]){
+      return translation_En_Ar [i]
+    }else{
+        return i;
+    }
+  }
+
+    function tSr_En_Ar() {
+        const elements = document.body.getElementsByTagName('*');
+        for (let i = 0; i < elements.length; i++) {
+            let element = elements[i];
+            if (element.childNodes.length > 0 && elements[i].tagName !== 'style') {
+                element.childNodes.forEach(node => {
+                    if (node.nodeType === Node.TEXT_NODE) {
+                        node.textContent = smdtr_en_to_ar(node.textContent);
+                    }
+                });
+            }
+        }
+    }
