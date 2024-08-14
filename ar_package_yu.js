@@ -1464,7 +1464,11 @@ tSr_En_Ar();
   
 }
 }
-if ( t==0) {
+if ( t==0 ) {
+    if ( sessionStorage.getItem("languageSetSS") == 'عربي' ) {
+  tSr_En_Ar();
+  }
+  
 setTimeout(testload3, 50);
 }  else {
   if ( sessionStorage.getItem("languageSetSS") == 'عربي' ) {
