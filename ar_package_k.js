@@ -1484,6 +1484,7 @@ window.onclick = function(event) {
   if ( sessionStorage.getItem("languageSetSS") == 'عربي' ) {
     setTimeout(tSr_En_Ar, 50);
     setTimeout(tSr_En_Ar, 200);
+    console.log('click....')
     setTimeout(tSr_En_Ar, 500);
   }
 
