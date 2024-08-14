@@ -199,7 +199,7 @@ const  translation_En_Ar = {" Switch to Agency View ":"التبديل إلى ع�
 "Next":"التالي", 
 "Good Work!":"عمل جيد!", 
 "You have no pending tasks":"ليس لديك مهام معلقة", 
-"Go Back":"عُد", 
+"Go Back":"الذهب للخلف", 
 " MY BUSINESS ":"عملي", 
 " Business Profile ":"ملف تعريف الأعمال", 
 " My Profile ":"ملفي الشخصي", 
