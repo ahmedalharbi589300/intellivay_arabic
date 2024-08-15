@@ -2689,7 +2689,23 @@ const  translation_En_Ar = {" Switch to Agency View ":"التبديل إلى ع�
 "Marketplace":"السوق", 
 "Private Integration":"التكامل الخاص", 
 "Created":"مخلوق", 
-"Deleted":"حذف"
+"Deleted":"حذف",
+"Prospect Accounts ":" حسابات احتمالية ",
+" Add a Prospect":" إضافة احتمال ",
+" Search prospects":" ابحث عن آفاق ",
+"All Accounts":" جميع الحسابات ",
+" Widgets ":" الحاجيات ",
+"All Prospects":" كل الاحتمالات ",
+"Manage all your prospect accounts seamlessly in one place.":" إدارة جميع حسابات التوقع الخاصة بك بسلاسة في مكان واحد. ",
+"5 Free Premium reports left for this month! ":" 5 تقارير قسط مجاني ترك لهذا الشهر! ",
+" Subscribe Now ":" اشترك الآن ",
+" No worries! You can continue generating basic reports just like before. ًںڑ€ ":" لا شكر على واجب!يمكنك متابعة إنشاء التقارير الأساسية كما كان من قبل.ًںڑ € ",
+" â€¢ Prospecting Open":" التنقيب المفتوح ",
+"More Likely":" على الأرجح ",
+" Export PDF ":" تصدير PDF ",
+" Convert to Sub-Account ":" تحويل إلى حساب فرعي ",
+"Moderate":" معتدل ",
+"Very High":" عالية جدا "         
   }
 
   function smdtr_en_to_ar(i='') {
