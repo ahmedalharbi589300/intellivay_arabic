@@ -6206,6 +6206,7 @@ window.onclick = function(event) {
     setTimeout(tSr_En_Ar, 50);
     setTimeout(tSr_En_Ar, 100);
     setTimeout(tSr_En_Ar, 150);
+    setTimeout(testload3, 2000);
   }
 
 
