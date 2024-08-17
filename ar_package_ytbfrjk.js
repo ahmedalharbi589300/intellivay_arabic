@@ -6146,6 +6146,32 @@ if ( sessionStorage.getItem("languageSetSS") == 'English' || sessionStorage.getI
 } else {
   sessionStorage.setItem("languageSetSS", 'English') ;
 }
+
+function rfefdhgf(t=0) {
+const grewcsd = document.getElementsByClassName("dbox-lan");
+const collection = document.getElementsByClassName("hl-loader-container");
+for (let i = 0; i < collection.length; i++) {
+  if ( collection[i].style.display == 'none' && grewcsd.length < 1 ) {
+  t=1 ;
+  var newItem = document.createElement("div");
+newItem.innerHTML = `<div class="dbox-lan" id="dbox-lan">
+  <button onclick="language_bx4()" class="dropbtn0lan">`+sessionStorage.getItem("languageSetSS")+`</button>
+  <div id="language_bx4" class="d-box-co">
+    <a style="color:gray" onclick="languageSet('English')">English</a>
+    <a style="color:gray" onclick="languageSet('عربي')">عربي</a>
+  </div>
+</div>`
+
+var list = document.getElementsByClassName("hl_header--controls")[0];
+
+list.insertBefore(newItem, list.childNodes[0]);
+
+
+}
+}
+
+}
+
 function testload3(t=0) {
 const collection = document.getElementsByClassName("hl-loader-container");
 for (let i = 0; i < collection.length; i++) {
@@ -6206,7 +6232,7 @@ window.onclick = function(event) {
     setTimeout(tSr_En_Ar, 50);
     setTimeout(tSr_En_Ar, 100);
     setTimeout(tSr_En_Ar, 150);
-    setTimeout(testload3, 2000);
+    setTimeout(rfefdhgf, 1000);
   }
 
 
