@@ -6160,7 +6160,7 @@ newItem.innerHTML = `<div class="dbox-lan" id="dbox-lan">
   </div>
 </div>`
 
-var list = document.getElementsByClassName("container-fluid")[0];
+var list = document.getElementsByClassName("hl_header--controls")[0];
 
 list.insertBefore(newItem, list.childNodes[0]);
 if ( sessionStorage.getItem("languageSetSS") == 'عربي' ) {
