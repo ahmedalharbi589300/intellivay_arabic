@@ -2785,7 +2785,7 @@ const  translation_En_Ar = {" Switch to Agency View ":"التبديل إلى ع�
 "Link For The 5 Day Challenge":" رابط للتحدي 5 أيام ",
 "HighLevel Bootcamp":" Bootcamp عالية المستوى ",
 "Add link":" أضف الرابط ",
-"Click 'Select' to make the link easier to copy and to share by email or on social media. Tracking for the other links will not be affected.":" انقر فوق "حدد" لجعل الرابط أسهل للنسخ والمشاركة عبر البريد الإلكتروني أو على وسائل التواصل الاجتماعي.لن يتأثر تتبع الروابط الأخرى. ",
+"Click 'Select' to make the link easier to copy and to share by email or on social media. Tracking for the other links will not be affected.":" انقر فوق 'حدد' لجعل الرابط أسهل للنسخ والمشاركة عبر البريد الإلكتروني أو على وسائل التواصل الاجتماعي.لن يتأثر تتبع الروابط الأخرى. ",
 "Frequently Asked Questions":" الأسئلة المتداولة ",
 "When will I get paid?":" متى سأحصل على رواتب؟ ",
 "Payments are released on the 10th to 15th of every month. Check out our ":" يتم إصدار المدفوعات في 10 إلى 15 من كل شهر.تحقق من لدينا ",
