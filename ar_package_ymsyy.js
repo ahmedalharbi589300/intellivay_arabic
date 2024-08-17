@@ -2768,7 +2768,7 @@ const  translation_En_Ar = {" Switch to Agency View ":"التبديل إلى ع�
 "customize link":" تخصيص الرابط ",
 "Links":" الروابط ",
 "Copy":" ينسخ ",
-"Click the "Links" button above to view all available referral links. You can also create your own links with sub-ids. ":" انقر فوق الزر "Links" أعلاه لعرض جميع روابط الإحالة المتاحة.يمكنك أيضًا إنشاء الروابط الخاصة بك مع الإضافات الفرعية. ",
+'Click the "Links" button above to view all available referral links. You can also create your own links with sub-ids. ':' انقر فوق الزر "Links" أعلاه لعرض جميع روابط الإحالة المتاحة.يمكنك أيضًا إنشاء الروابط الخاصة بك مع الإضافات الفرعية. ',
 "Changing this value will make previous links invalid. Make sure you replace old links with the new ones everywhere after you save.":" سيؤدي تغيير هذه القيمة إلى جعل الروابط السابقة غير صالحة.تأكد من استبدال الروابط القديمة بالروابط الجديدة في كل مكان بعد حفظها. ",
 "Only lowercase letters, numbers and hyphens(-) are allowed. Min 5 characters.":" يُسمح فقط بالأحرف الصغيرة والأرقام والوصلات (-).دقيقة 5 شخصيات. ",
 "Add a new link":" أضف رابطًا جديدًا ",
