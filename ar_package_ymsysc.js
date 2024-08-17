@@ -2772,7 +2772,7 @@ const  translation_En_Ar = {" Switch to Agency View ":"التبديل إلى ع�
 "Changing this value will make previous links invalid. Make sure you replace old links with the new ones everywhere after you save.":" سيؤدي تغيير هذه القيمة إلى جعل الروابط السابقة غير صالحة.تأكد من استبدال الروابط القديمة بالروابط الجديدة في كل مكان بعد حفظها. ",
 "Only lowercase letters, numbers and hyphens(-) are allowed. Min 5 characters.":" يُسمح فقط بالأحرف الصغيرة والأرقام والوصلات (-).دقيقة 5 شخصيات. ",
 "Add a new link":" أضف رابطًا جديدًا ",
-"Tip: After saving the link, you can verify it by opening the resulted referral link in an incognito window then check if the "Clicks" count increases.":" نصيحة: بعد حفظ الرابط ، يمكنك التحقق من ذلك عن طريق فتح رابط الإحالة الناتج في نافذة متخفية ثم تحقق مما إذا كان عدد "النقرات" يزيد. ",
+'Tip: After saving the link, you can verify it by opening the resulted referral link in an incognito window then check if the "Clicks" count increases.':' نصيحة: بعد حفظ الرابط ، يمكنك التحقق من ذلك عن طريق فتح رابط الإحالة الناتج في نافذة متخفية ثم تحقق مما إذا كان عدد "النقرات" يزيد. ',
 "Link":" وصلة ",
 "SubId":" subid ",
 "Default":" تقصير ",
